@@ -1,0 +1,139 @@
+services:
+  - name: "Web"
+    icon: https://img.icons8.com/?size=256&id=119124&format=png
+  - name: "Artificial Intelligence"
+    icon: https://img.icons8.com/?size=256&id=hYrFHwpCihtA&format=png
+  - name: "Software as a Service"
+    icon: https://img.icons8.com/?size=256&id=24CAyLnS53zE&format=png
+  - name: "Blockchain / dApps"
+    icon: https://img.icons8.com/?size=256&id=DiJnaO4hWcR1&format=png
+  - name: "Mobile"
+    icon: https://img.icons8.com/?size=256&id=ATr5UMOBAFPl&format=png
+  - name: "Chat Bot"
+    icon: https://img.icons8.com/?size=256&id=1ZUKmWM8yiKw&format=png
+works:
+  - title: Propmind
+    description: Smart strategies for financial growth and prosperity
+    image: assets/media/propmind.png
+    labels:
+      - web_design
+      - ai
+      - ml
+  - title: PilePeak.ai
+    description: A comprehensive solution for seamless crypto currency management
+    image: assets/media/pile-peak.png
+    labels:
+      - web_design
+      - ai
+      - ml
+      - blockchain
+      - cloud_computing
+  - title: Smart Home
+    description: Smart solutions for a safer and connected living space
+    image: assets/media/smart-home.png
+    labels:
+      - web_design
+      - mobile
+      - iot
+      - voice_recognition
+  - title: Palace Studio
+    description: A showcase of artistry and vision
+    image: assets/media/palace-studio.png
+    labels:
+      - web_design
+      - digital_imaging
+      - 3d_rendering
+      - animation
+  - title: Invoice Mate
+    description: Simplify your financial workflow on the go with InvoiceMate—a user-friendly app tailored for the mobile entrepreneur.
+    image: https://cdn.dribbble.com/users/4376805/screenshots/20090156/media/d7172ce7a02f2f157dbbe55ab1f94e06.png
+    labels:
+      - logo
+      - animation
+      - mobile
+labels:
+  web_design:
+    name: Web Design
+    bg: B71C1C
+    color: fff
+  mobile:
+    name: Mobile App
+    bg: 880E4F
+    color: fff
+  logo:
+    name: Logo Design
+    bg: 4A148C
+    color: fff
+  animation:
+    name: Animation
+    bg: 311B92
+    color: fff
+  ai:
+    name: Artificial Intelligence
+    bg: 1A237E
+    color: fff
+  ml:
+    name: Machine Learning
+    bg: 0D47A1
+    color: fff
+  saas:
+    name: SaaS
+    bg: 01579B
+    color: fff
+  chatbot:
+    name: Chatbot
+    bg: 006064
+    color: fff
+  iot:
+    name: Internet of Things (IoT)
+    bg: 004D40
+    color: fff
+  edtech:
+    name: EdTech
+    bg: 1B5E20
+    color: fff
+  graphs:
+    name: Graphs
+    bg: 33691E
+    color: fff
+  charts:
+    name: Charts
+    bg: 827717
+    color: fff
+  enterprise:
+    name: Enterprise
+    bg: F57F17
+    color: fff
+  blockchain:
+    name: Blockchain Integration
+    bg: E65100
+    color: fff
+  cloud_computing:
+    name: Cloud Computing
+    bg: BF360C
+    color: fff
+  voice_recognition:
+    name: Voice Recognition
+    bg: 3E2723
+    color: fff
+  digital_imaging:
+    name: Digital Imaging
+    bg: 212121
+    color: fff
+  3d_rendering:
+    name: 3D Rendering
+    bg: 263238
+    color: fff
+# AWS DevOps and data migration (focused more on devops) - refine - senior level
+
+# Data Conversion/Migration consultant - also mention AWS - Data engineer
+# on-prem, cloud
+# learn data warehouse
+
+# solution architect
+
+# understandnig business requirementss
+# ransforming business reqyuirements to technical
+# data transformation rules
+# ETL
+# cleansing the data

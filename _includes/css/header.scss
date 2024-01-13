@@ -1,0 +1,39 @@
+header{
+    width: 100%;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 0.9em;
+    
+    nav{
+        display: flex; 
+        align-items: center;
+    }
+    .logo{
+        a{
+            color: $brand-color !important;
+            padding: 0;
+        }
+    }
+    .menu{
+        display: flex;
+        list-style: none;
+        align-items: center;
+        justify-content: center;
+        flex: 1
+    }
+    .menu.logo-holder{
+        flex: 0
+    }
+    ul, li{
+        margin: 0;
+    }
+    a{
+        color: #777;
+        display: inline-block;
+        padding: 1em;
+        text-decoration: none;
+        &.current{
+            color: $brand-color;
+        }
+    }
+}

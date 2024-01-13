@@ -1,0 +1,24 @@
+.post-author{
+    display: flex;
+    font-size: .9em;
+
+    .author-pic{
+        margin-right: 2em;
+
+        img{
+            width: 120px;
+            border-radius: 50%;
+        }
+    }
+    .bio{
+        color: #999;
+    }
+    p{
+        margin-bottom: 0.8rem;
+    }
+    .contact a{
+        text-decoration: none;
+        margin-right: 0.5em;
+        font-size: 1.3em;
+    }
+}

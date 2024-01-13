@@ -1,0 +1,67 @@
+
+.services-main{
+    display: flex;
+    gap: 2em;
+    h4{
+        font-weight: 600;
+        font-size: 2.5em;
+    }
+    > div{
+        flex: 1;
+    }
+
+    .stack{
+        gap: 1em;
+
+        > div{
+            display: flex;
+            flex-direction: column;
+            gap: 1em;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+
+    .content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        .points{
+            display: flex;
+            flex-direction: column;
+            gap: 1em;
+
+            > div{
+                background-color: $gray-color;
+                padding: 1em;
+                color: #666;
+                border: 1px solid #eee
+            }
+        }
+    }
+}
+.service{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3em;
+    border-radius: 1em;
+    gap: 1em;
+    width: 200px;
+
+    img{
+        width: 80px;
+    }
+}
+.services-icons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    > div{
+        flex: 1;
+    }
+}

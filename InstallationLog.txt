@@ -1,0 +1,6 @@
+************************************* Invoked: Fri Jan 5 14:37:54 2024
+[0] Arguments: C:\Users\whitehat\AppData\Local\Temp\msys2-x86_64-20221028.exe
+[9] Operations sanity check succeeded.
+[9] Warning: Cannot create lock file "C:\Users\whitehat\AppData\Local\Temp\msys2-x86_64-202210281234865.lock": The process cannot access the file because it is being used by another process.
+ (0x00000020)
+[29] UnableToStart : Unable to start installer : Another msys2-x86_64-20221028 instance is already running. Wait until it finishes, close it, or restart your system.

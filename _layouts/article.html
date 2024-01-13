@@ -1,0 +1,24 @@
+---
+layout: default
+---
+
+<div class="container">
+  {% include post_author.html %}
+  <div class="card article">
+    <h3 class="post-title">
+        {{page.title}}
+    </h3>
+    <div class="post-meta">
+        <ul>
+            <li>
+              <i class="fa fa-calendar"></i> {{page.published_date}}
+            </li>
+            <li>
+              <i class="fa fa-clock-o"></i>
+              {{page.content | reading_time}}
+            </li>
+        </ul>
+    </div>
+    {{content}}
+  </div>
+</div>

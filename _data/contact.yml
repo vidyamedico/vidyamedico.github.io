@@ -1,0 +1,12 @@
+- name: github
+  icon_class: "fa fa-github"
+  link: https://github.com/sreekanthreddybalne
+- name: stackoverflow
+  icon_class: "fa fa-stack-overflow"
+  link: https://stackoverflow.com/users/5710526/whitehat?tab=profile
+- name: linkedin
+  icon_class: "fa fa-linkedin"
+  link: https://www.linkedin.com/in/sbalne/
+- name: contact
+  icon_class: "fa fa-envelope"
+  link: /contact

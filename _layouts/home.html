@@ -1,0 +1,27 @@
+---
+layout: home_layout
+---
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+<div class="masthead home">
+    <div class="bg-image"></div>
+    <div class="container d-flex align-items-center justify-content-center f-direction-column">
+        <h1>
+            myra <span class="primary">infra</span>
+        </h1>
+        <h5>We craft digital products for business and user goals</h5>
+    </div>
+</div>
+<div class="container pt-2">
+    <div class="row">
+        <div class="eight columns">
+            {% for post in site.articles %}
+                {% include post_summary.html post=post category='article' %}
+            {% endfor %}
+        </div>
+        <div class="four columns">
+            {% include sidebar.html %}
+        </div>
+    </div>
+</div>

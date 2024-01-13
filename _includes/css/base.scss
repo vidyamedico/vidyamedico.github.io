@@ -1,0 +1,68 @@
+body{
+    background-color: #f9f9f9;
+    line-height: 1.6;
+    font-weight: 400;
+    font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: 'Nunito', sans-serif;
+    color: #222;
+    font-size: 18px;
+    background: url(https://github.githubassets.com/assets/bg-top-60f50e61237b.webp?v=2);
+    background-size: auto;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+@media (min-width: 750px){
+    .container {
+        width: 90%;
+    }
+}
+
+
+img{
+    width: 100%;
+}
+.ml-auto{
+    margin-left: auto;
+}
+.card{
+    background-color: #fff;
+    padding: 30px;
+    box-shadow: 0 3px 3px 0 rgba(0,0,0,0.05);
+    margin-bottom: 4rem;
+}
+.d-flex{
+    display: flex;
+}
+.justify-content-center{
+    justify-content: center;
+}
+.align-items-center{
+    align-items: center;
+}
+.f-direction-column{
+    flex-direction: column;
+}
+.primary{
+    color: $brand-color;
+}
+.pt-1{
+    padding-top: 1em;
+}
+.pt-2{
+    padding-top: 2em;
+}
+.ta-center{
+    text-align: center;
+}
+.logo {
+    font-family: 'Rubik Maps', system-ui;
+    font-size: 2em;
+}

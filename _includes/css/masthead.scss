@@ -1,0 +1,37 @@
+.home{
+    margin-top: -90px;
+}
+.masthead{
+    position: relative;
+    display: flex;
+    height: 50vh;
+    text-align: center;
+    .bg-image{
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-image: url(/assets/media/pythonbg.jpg);
+        background:linear-gradient(0deg, rgb(255, 255, 255), rgba(255, 255, 255, 0.66)), url(/assets/media/pythonbg.jpg);
+        background-position: center;
+    }
+    .container{
+        height: 100%;
+    }
+    img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    h1{
+        background: #222222;
+        color: #fff;
+        margin-bottom: 0.25em;
+        font-size: 3em;
+    }
+    h5{
+        font-size: 2em;
+        color: #000;
+    }
+}

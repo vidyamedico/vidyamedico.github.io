@@ -1,0 +1,25 @@
+.widget{
+    h1{
+        font-size: 1.5em;
+        text-transform: uppercase;
+    }
+    img{
+        margin-bottom: 1em;
+    }
+    &.social{
+        a{
+            padding: 0.3em;
+            font-size: 1em;
+            background: $brand-color;
+            color: #fff;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            margin-right: 6px;
+            width: 30px;
+            height: 30px;
+            border-radius:50%;
+        }
+    }
+}

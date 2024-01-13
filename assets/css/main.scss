@@ -1,0 +1,22 @@
+---
+---
+{% include css/normalize.css %}
+{% include css/skeleton.css %}
+
+// onebetterapp styling
+$brand-color : #043b17;
+$gray-color : #f8f9fb;
+$maroon-color : #db9559;
+{% include css/base.scss %}
+{% include css/header.scss %}
+{% include css/footer.scss %}
+{% include css/services.scss %}
+{% include css/works.scss %}
+{% include css/home_layout.scss %}
+{% include css/team.scss %}
+{% include css/post.scss %}
+{% include css/page.scss %}
+{% include css/post_author.scss %}
+{% include css/masthead.scss %}
+{% include css/article.scss %}
+{% include css/widget.scss %}

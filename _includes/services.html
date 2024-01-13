@@ -1,0 +1,34 @@
+<div class="services-main" id="services">
+    <div class="services-icons">                
+        {% for service in site.data.constants.services %}
+            <div class="service">
+                <img  src="{{service.icon}}" alt="web--v2"/>
+                <span>{{service.name}}</span>
+            </div>
+        {% endfor %}
+    </div>
+    <div class="content">
+        <h4>
+            Providing the simplest solution for the most complex problems
+        </h4>
+        <div class="points">
+            <div>
+                Deployment Automation and Orchestration
+            </div>
+            <div>
+                Continuous Integration and Continuous Deployment (CI/CD)
+            </div>
+            <div>
+                System Quality Automation
+            </div>
+            <div>
+                Code Quality Assurance
+            </div>
+            <div>
+                Multiple Environments Management
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Providing the simplest solution for the most complex problem -->

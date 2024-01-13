@@ -1,0 +1,25 @@
+<div id="works">
+    <div class="container">
+        <h4>Our Prominent Works</h4>
+        <p>Some of the things we've done. And we done it with love!</p>
+        <div class="works">
+            {% for work in site.data.constants.works %}
+                <div class="work">
+                    <div>
+                        <img  src="{{work.image}}" alt="web--v2"/>
+                    </div>
+                    <div>
+                        <h5>{{work.title}}</h5>
+                        <p>{{work.description}}</p>
+                        <div class="badges">
+                            {% for label in work.labels %}
+                                {% assign label_data = site.data.constants.labels[label] %}
+                                <span style="background: #{{label_data.bg}}; color: #{{label_data.color}}">{{label_data.name}}</span>
+                            {% endfor %}
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
