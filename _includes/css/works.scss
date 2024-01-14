@@ -56,6 +56,9 @@
     #works{
         padding: 3em 0;
     }
+    .work{
+        gap: 0.5em;
+    }
     .work, .work:nth-child(2n+0){
         flex-direction: column;
     }
