@@ -41,6 +41,7 @@
     .second{
         background: url(https://plus.unsplash.com/premium_photo-1683880731792-39c07ceea617?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fG9mZmljZXxlbnwwfHwwfHx8MA%3D%3D);
         background-size: cover;
+        display: none;
     }
 }
 
@@ -57,8 +58,41 @@
         color: $maroon-color;
         font-weight: 600;
     }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
     h4{
-        font-weight: 600;
-        font-size: 2.5em;
+        font-size: 2em;
     }
+    .brand-hero-container .first{
+        h4{
+            font-size: 2em;
+        }
+    }
+    .achievements{
+        padding: 0;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .brand-hero-container .second{
+        display: block;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    
 }

@@ -2,13 +2,11 @@
 main:
   - name: "Home"
     link: /
-    icon: home
   - name: "Services"
     link: /#services
-    icon: archive
-  - name: "Blog"
-    link: /blog/
-    icon: book
+  - name: "Works"
+    link: /#works
+  # - name: "Blog"
+  #   link: /blog/
   - name: "Team"
-    link: /team/
-    icon: code
+    link: /#team

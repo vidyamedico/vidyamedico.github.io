@@ -11,16 +11,36 @@ services:
     icon: https://img.icons8.com/?size=256&id=ATr5UMOBAFPl&format=png
   - name: "Chat Bot"
     icon: https://img.icons8.com/?size=256&id=1ZUKmWM8yiKw&format=png
+team:
+  - name: Mia Ward
+    position: Founder & CEO
+    photo: https://t3.ftcdn.net/jpg/03/02/88/46/360_F_302884605_actpipOdPOQHDTnFtp4zg4RtlWzhOASp.jpg
+  - name: Phoenix Baker
+    position: Head of Engineering
+    photo: https://img.freepik.com/free-photo/handsome-bearded-guy-posing-against-white-wall_273609-20597.jpg?size=626&ext=jpg&ga=GA1.1.1222169770.1701993600&semt=ais
+  - name: Lana Steiner
+    position: Chief Operating Officer
+    photo: https://www.verywellmind.com/thmb/pwEmuUJ6KO9OF8jeiQCDyKnaVQI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-1187609003-73c8baf32a6a46a6b84fe931e0c51e7e.jpg
+  - name: Orlando Diggs
+    position: VP of People
+    photo: https://t3.ftcdn.net/jpg/02/99/04/20/360_F_299042079_vGBD7wIlSeNl7vOevWHiL93G4koMM967.jpg
+  - name: Demi Wilkinson
+    position: Head of Product
+    photo: https://img.freepik.com/free-photo/close-up-young-successful-man-smiling-camera-standing-casual-outfit-against-blue-background_1258-65479.jpg
+  - name: Lana Steiner
+    position: Head of Sales
+    photo: https://st4.depositphotos.com/1662991/31514/i/450/depositphotos_315146284-stock-photo-portrait-handsome-smiling-latin-man.jpg
+
 works:
   - title: Propmind
-    description: Smart strategies for financial growth and prosperity
+    description: Propmind unfolds smart strategies for financial growth and prosperity, guiding clients towards intelligent investment decisions and sustainable wealth management.
     image: assets/media/propmind.png
     labels:
       - web_design
       - ai
       - ml
   - title: PilePeak.ai
-    description: A comprehensive solution for seamless crypto currency management
+    description: PilePeak.ai revolutionizes cryptocurrency management with its comprehensive and seamless solution, empowering users to navigate the complex crypto landscape effortlessly.
     image: assets/media/pile-peak.png
     labels:
       - web_design
@@ -29,7 +49,7 @@ works:
       - blockchain
       - cloud_computing
   - title: Smart Home
-    description: Smart solutions for a safer and connected living space
+    description: Smart Home delivers ingenious solutions for a safer and connected living space, seamlessly integrating cutting-edge technology to enhance security and connectivity in the modern home.
     image: assets/media/smart-home.png
     labels:
       - web_design
@@ -37,7 +57,7 @@ works:
       - iot
       - voice_recognition
   - title: Palace Studio
-    description: A showcase of artistry and vision
+    description: Palace Studio stands as a captivating showcase of artistry and vision, where every creation reflects the studio's commitment to crafting visually stunning and thought-provoking works.
     image: assets/media/palace-studio.png
     labels:
       - web_design
@@ -91,14 +111,6 @@ labels:
   edtech:
     name: EdTech
     bg: 1B5E20
-    color: fff
-  graphs:
-    name: Graphs
-    bg: 33691E
-    color: fff
-  charts:
-    name: Charts
-    bg: 827717
     color: fff
   enterprise:
     name: Enterprise

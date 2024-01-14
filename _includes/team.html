@@ -1,9 +1,16 @@
-<div class="team-main">
-    <h4>We are the people who make up Myra</h4>
+<div id="team" class="team-main container">
+    <h4>Meet our team of <i>creators</i>, <i>designers</i>, and world-class <i>problem solvers</i></h4>
     <p>
-        Our philosophy is simple, hire great people and give them the resources and support to do their best work.
+        To be the company our customers want us to be, it takes an <i>eclectic group</i> of passionate operators. <br>
+         Get to know the people <i>leading the way</i> at Myra.
     </p>
     <div class="team-holder">
-        
+        {% for member in site.data.constants.team %}
+            <div>
+                <img src="{{member.photo}}" alt="">
+                <span>{{member.name}}</span>
+                <i>{{member.position}}</i>
+            </div>
+        {% endfor %}
     </div>
 </div>
