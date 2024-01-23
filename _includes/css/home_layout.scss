@@ -62,8 +62,8 @@
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-    h4{
-        font-size: 2em;
+    .brand-hero-container .first .brand-hero-main{
+        gap: 40px;
     }
     .brand-hero-container .first{
         h4{
@@ -71,7 +71,7 @@
         }
     }
     .achievements{
-        padding: 5em 0;
+        padding: 2em 20px;
     }
 }
 

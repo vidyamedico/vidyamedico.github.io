@@ -4,13 +4,15 @@
 }
 .team-holder{
     display: flex;
-    gap: 2em;
+    --cols: 3;
+    --gap: 30px;
+    gap: var(--gap);
     flex-wrap: wrap;
 
     > div{
         display: flex;
         flex-direction: column;
-        flex-basis: 30.33%;
+        flex-basis: calc(100% / var(--cols) - var(--gap) / var(--cols) * (var(--cols) - 1));
 
         img{
             margin-bottom: 0.5em;
@@ -33,9 +35,7 @@
         flex-direction: column;
     }
     .team-holder{
-        > div{
-            flex-basis: 45%;
-        }
+        --cols: 1;
     }
 }
 

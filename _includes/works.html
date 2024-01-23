@@ -8,15 +8,18 @@
                     <div>
                         <img  src="{{work.image}}" alt="web--v2"/>
                     </div>
-                    <div>
-                        <h5>{{work.title}}</h5>
-                        <p>{{work.description}}</p>
+                    <div class="content">
+                        <div>
+                            <h5>{{work.title}}</h5>
+                            <p>{{work.description}}</p>
+                        </div>
                         <div class="badges">
                             {% for label in work.labels %}
                                 {% assign label_data = site.data.constants.labels[label] %}
                                 <span style="background: #{{label_data.bg}}; color: #{{label_data.color}}">{{label_data.name}}</span>
                             {% endfor %}
                         </div>
+                        <button class="case-study" onclick="window.location='/works/{{work.title}}'">Read case study</button>
                     </div>
                 </div>
             {% endfor %}
