@@ -11,9 +11,7 @@
       "value": "#ffffff"
     },
     "shape": {
-      "image": {
-       "src": "/assets/media/profile.jpg"
-      }
+      "type": "circle"
     },
     "opacity": {
       "value": 0.5,
