@@ -1,4 +1,4 @@
 ---
 title: One Better App
-layout: home
+layout: vidya
 ---

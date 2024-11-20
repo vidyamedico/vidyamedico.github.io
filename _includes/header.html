@@ -1,26 +1,10 @@
 <header>
     <nav>
-        <ul class="menu logo-holder"> 
+        <ul class="menu logo-holder">
             <li class="logo">
-                <a href="{{'/' | relative_url }}" style="font-weight: 600">Myra.</a>
+                <a href="{{'/' | relative_url }}" style="font-weight: 600">Dr.Vidya</a>
             </li>
         </ul>
-        <ul class="menu not-logo">
-            {% for item in site.data.navigation.main %}
-            <li class="p-4">
-                <a href="{{ item.link | relative_url }}" {% if page.url == item.link %}class="current"{% endif %}>
-                    {{ item.name }}
-                </a>
-            </li>
-            {% endfor %}
-        </ul>
-        <!-- <ul class="menu ml-auto">
-            <li class="menu-item">
-                <a href="/hire-me">
-                    <span class="fa fa-certificate"></span> Start a project!
-                </a>
-            </li>
-        </ul> -->
     </nav>
-    
+
 </header>
